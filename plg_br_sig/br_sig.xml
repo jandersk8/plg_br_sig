@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade">
+    <name>PLG_CONTENT_BR_SIG</name>
+    
+    <author>Janderson Moreira</author>
+    <creationDate>December 2025</creationDate>
+    <copyright>Copyright (c) 2025 Janderson Moreira.</copyright>
+    <license>GNU/GPL</license>
+    <authorEmail>jandersonmm@gmail.com</authorEmail>
+    <version>1.0.0</version>
+    
+    <description>PLG_BR_SIG_XML_DESCRIPTION</description>
+
+    <namespace path="src">Br\Plugin\Content\BrSig</namespace>
+
+    <files>
+        <filename plugin="br_sig">br_sig.xml</filename>
+        <folder>services</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+    </files>
+
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_content_br_sig.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_content_br_sig.sys.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field 
+                    name="galleries_rootfolder" 
+                    type="text" 
+                    default="images" 
+                    label="PLG_BR_SIG_ROOT_FOLDER_LABEL" 
+                    description="PLG_BR_SIG_ROOT_FOLDER_DESC" 
+                />
+
+                <field 
+                    name="thb_width" 
+                    type="number" 
+                    default="300" 
+                    label="PLG_BR_SIG_WIDTH_LABEL" 
+                    description="PLG_BR_SIG_WIDTH_DESC"
+                />
+
+                <field 
+                    name="thb_height" 
+                    type="number" 
+                    default="200" 
+                    label="PLG_BR_SIG_HEIGHT_LABEL" 
+                    description="PLG_BR_SIG_HEIGHT_DESC"
+                />
+
+                <field 
+                    name="jpg_quality" 
+                    type="number" 
+                    default="90" 
+                    min="0" 
+                    max="100" 
+                    label="PLG_BR_SIG_QUALITY_LABEL" 
+                    description="PLG_BR_SIG_QUALITY_DESC"
+                />
+
+                <field 
+                    name="cache_expire_time" 
+                    type="number" 
+                    default="86400" 
+                    label="PLG_BR_SIG_CACHE_TIME_LABEL" 
+                    description="PLG_BR_SIG_CACHE_TIME_DESC"
+                />
+
+                <field 
+                    name="memoryLimit" 
+                    type="text" 
+                    default="" 
+                    label="PLG_BR_SIG_MEMORY_LIMIT_LABEL" 
+                    description="PLG_BR_SIG_MEMORY_LIMIT_DESC" 
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
