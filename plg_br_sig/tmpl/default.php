@@ -1,4 +1,13 @@
-<?php defined('_JEXEC') or die; ?>
+
+<?php 
+/**
+ * @package     BR.SimpleImageGallery
+ * @author      Janderson Moreira
+ * @copyright   Copyright (C) 2026 Janderson Moreira
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+defined('_JEXEC') or die; ?>
 
 <ul class="brSigContainer">
     <?php foreach($gallery as $photo): ?>

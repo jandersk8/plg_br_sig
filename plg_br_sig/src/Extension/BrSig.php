@@ -1,4 +1,12 @@
 <?php
+/**
+ * @package     BR.SimpleImageGallery
+ * @author      Janderson Moreira
+ * @copyright   Copyright (C) 2026 Janderson Moreira
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+
 declare(strict_types=1);
 
 namespace Br\Plugin\Content\BrSig\Extension;

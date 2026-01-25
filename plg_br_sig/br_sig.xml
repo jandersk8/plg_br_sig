@@ -3,13 +3,18 @@
     <name>PLG_CONTENT_BR_SIG</name>
     
     <author>Janderson Moreira</author>
-    <creationDate>December 2025</creationDate>
-    <copyright>Copyright (c) 2025 Janderson Moreira.</copyright>
-    <license>GNU/GPL</license>
+    <creationDate>January 2026</creationDate>
+    <copyright>Copyright (c) 2026 Janderson Moreira.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>jandersonmm@gmail.com</authorEmail>
+    <authorUrl>https://github.com/jandersk8</authorUrl>
     <version>1.0.0</version>
     
     <description>PLG_BR_SIG_XML_DESCRIPTION</description>
+
+    <updateservers>
+        <server type="extension" priority="1" name="BR Sig Free Updates">https://raw.githubusercontent.com/jandersk8/plg_br_sig/main/update.xml</server>
+    </updateservers>
 
     <namespace path="src">Br\Plugin\Content\BrSig</namespace>
 
@@ -19,6 +24,7 @@
         <folder>src</folder>
         <folder>tmpl</folder>
         <folder>language</folder>
+        <file>LICENSE.txt</file> 
     </files>
 
     <languages>

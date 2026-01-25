@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>BR Simple Image Gallery (Free)</name>
+        <description>Version 1.0.0 - Initial Release</description>
+        <element>plg_content_br_sig</element>
+        <type>plugin</type>
+        <group>content</group>
+        <version>1.0.0</version>
+        <infourl title="BR SIG Info">https://github.com/jandersk8/plg_br_sig</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/jandersk8/plg_br_sig/archive/refs/heads/main.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <maintainer>Janderson Moreira</maintainer>
+        <maintainerurl>https://github.com/jandersk8</maintainerurl>
+        <section>Updates</section>
+        
+        <targetplatform name="joomla" version="5.*"/>
+        <targetplatform name="joomla" version="6.*"/>
+    </update>
+</updates>
